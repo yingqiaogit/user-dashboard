@@ -17,8 +17,10 @@ Users will be streamed out with 1 second in between.
 ### UI
 #### With Users
 A list of users will be displayed after a role is selected:
+
 ![All](readme/all.png)
 
 #### Error
 An alert will appear when an error occurs:
+
 ![Alert](readme/error.png)
