@@ -81,9 +81,10 @@ export default function Users() {
     }, [selectedRole]);
 
     return (
-        <div>
+        <>
             <ToastContainer position="top-right" theme="colored" />
-            <div id="next-steps">            
+            <div id="next-steps">  
+                <div>
                 <label htmlFor="role-select">Filter by role:</label>
                 <select
                     id="role-select"
@@ -96,7 +97,7 @@ export default function Users() {
                         </option>
                     ))}
                 </select>
-            
+                </div>
                 <ul>
                     {users.map((user) => (
                         <li key={user.id} className={user.role}>
@@ -104,7 +105,7 @@ export default function Users() {
                         </li>
                     ))}
                 </ul>            
-            </div>
-        </div>        
+            </div>            
+        </>
     );
 }
