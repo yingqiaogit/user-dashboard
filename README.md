@@ -1,6 +1,6 @@
 # User Information Dashboard Project
-This is a practice of React UI. This dashboard UI pulls data from a backend service. 
-This dashboard allows the user to specify a role to view their information in a list.
+This is a React UI practice. This dashboard displays data streamed from a backend service. 
+It lets the user select a role to view their information in a list.
 
 ## Backend Service
 Users will be streamed out with 1 second in between.
