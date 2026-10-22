@@ -1,0 +1,93 @@
+#center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: flex-start;
+  padding-top: 60px;
+  flex-grow: 1;
+
+  @media (max-width: 1024px) {
+    padding: 32px 20px 24px;
+    gap: 18px;
+  }
+}
+
+#next-steps {
+  display: flex;
+  border-top: 1px solid var(--border);
+  text-align: left;
+
+  & > div {
+    flex: 1 1 0;
+    padding: 32px;
+    @media (max-width: 1024px) {
+      padding: 24px 20px;
+    }
+  }
+
+  .icon {
+    margin-bottom: 16px;
+    width: 22px;
+    height: 22px;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+#role-selector {
+  border-right: 1px solid var(--border);
+
+  @media (max-width: 1024px) {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+}
+
+#next-steps ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  margin: 32px 0 0;
+  flex-direction: column;
+
+  li {
+    /* 📌 FIX: Forces each item to act as a full-width block line */
+    display: block; 
+    text-align: left; /* Aligns text cleanly to the left */
+    padding: 10px 16px;
+    background: var(--social-bg); /* Applies your theme background tint */
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    cursor: pointer; 
+    :hover {
+        box-shadow: var(--shadow);    
+        transform: translateY(-3px);  
+        border-color: var(--accent);
+    }
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      flex: 1 1 calc(50% - 8px);
+    }
+  }
+}
+
+#spacer {
+  height: 88px;
+  border-top: 1px solid var(--border);
+  @media (max-width: 1024px) {
+    height: 48px;
+  }
+}
