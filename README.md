@@ -9,7 +9,7 @@ Users will be streamed out with 1 second in between.
 
 ## Configuration 
 - `npm install`
-- add `.env.development` file in project fold with line:
+- Add a `.env.development` file in the project folder with the line:
   `VITE_BACKEND_SERVER=http://localhost:8080`
 
 ## Run 
@@ -25,5 +25,6 @@ A list of users will be displayed after role filter is selected:
 ![All](readme/user-list.png)
 
 #### Error
-An alert will raise when an error occurs:
+An alert will appear when an error occurs:
+
 ![Alert](readme/error.png)
