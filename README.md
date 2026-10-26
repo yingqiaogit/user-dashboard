@@ -29,4 +29,4 @@ A list of users will be displayed after role filter is selected:
 #### Error
 An alert will appear when an error occurs:
 
-![Alert](readme/error.png)
+![Alert](readme/alert.png)
