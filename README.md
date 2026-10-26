@@ -1,4 +1,6 @@
-# User Information Dashboard Project
+
+
+# User Information Dashboard Project V2
 This is a practice of React UI. This dashboard UI pulls data from a backend service. 
 This dashboard allows user to specify a role of users to view their information in a list.
 
