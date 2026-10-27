@@ -22,11 +22,9 @@ Users will be streamed out with 1 second in between.
 #### Role Assertion
 Three roles can be selected for assertion: `Admin`, `Manager`, `User`
 ![Assert Role](readme/role-assertion.png)
-
 #### With Users
 A list of users will be displayed after a role filter is selected:
 ![All](readme/user-list.png)
-
 #### Error
 An alert will appear when an error occurs:
 ![Alert](readme/alert.png)
