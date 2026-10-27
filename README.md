@@ -1,7 +1,7 @@
 # User Information Dashboard Project V2
-This V2 is built from AI-assistant coding with Gemini. The prompt was asked to add a stage before dashboard. This new stage will assert a role to backend service and receive a JWT token containing the asserted role. The user list will be queried with this JWT. 
+This V2 is built using AI-assisted coding with Gemini CLI. The prompt asked to add a stage before the dashboard. This new stage will assert a role to the backend service and receive a JWT token containing the asserted role. The user list will be queried with this JWT. 
 
-The Gemini agent also were also asked to improve the UI style and testing.
+The Gemini agent was also asked to improve the UI style and testing.
 
 - [V1](https://github.com/yingqiaogit/user-dashboard/tree/v1)
 
@@ -19,11 +19,11 @@ Users will be streamed out with 1 second in between.
 
 ### UI
 #### Role Assertion
-There are three roles can be selected: `Admin`, `Manager`, `User`
+There are three roles that can be selected: `Admin`, `Manager`, `User`
 ![Assert Role](readme/role_assertion.png)
 
 #### With Users
-A list of users will be displayed after role filter is selected:
+A list of users will be displayed after a role filter is selected:
 ![All](readme/user-list.png)
 
 #### Error
