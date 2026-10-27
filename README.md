@@ -1,5 +1,5 @@
 # User Information Dashboard Project V2
-This V2 is built using AI-assisted coding with Gemini CLI, based on V1. The first prompt asked to add a stage before the dashboard. This new stage will assert a role to the backend service and receive a JWT token containing the asserted role. The user list will be queried with this JWT. 
+This V2 uses AI-assisted coding with Gemini CLI and builds on V1. The first prompt asked to add a stage before the dashboard. This new stage asserts a role to the backend service and receives a JWT token containing that role. The user list will be queried with this JWT. 
 
 The Gemini agent was also asked to improve the UI style and testing thereafter.
 
@@ -7,7 +7,7 @@ The Gemini agent was also asked to improve the UI style and testing thereafter.
 - [V1](https://github.com/yingqiaogit/user-dashboard/tree/v1)
 
 ## Backend Service
-Users will be streamed out with 1 second in between.
+Users will be streamed out 1 second apart.
 - [User Provider](https://github.com/yingqiaogit/user-provider)
 
 ## Configuration 
