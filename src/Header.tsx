@@ -3,9 +3,9 @@ const Header = ({ title }: { title: string }) => {
         <header>
             <h1>{title}</h1>
             <p className="header-subtitle">
-                Start by selecting a role from the dropdown below to filter the user list.
+                Start by asserting your role first. You can then view the list of users aligned with your role.
             </p>
         </header>
     );
 };
-export default Header;
+export default Header;
