@@ -20,7 +20,7 @@ Users will be streamed out with 1 second in between.
 
 ### UI
 #### Role Assertion
-There are three roles that can be selected: `Admin`, `Manager`, `User`
+Three roles can be selected for assertion: `Admin`, `Manager`, `User`
 ![Assert Role](readme/role-assertion.png)
 
 #### With Users
