@@ -7,7 +7,7 @@ The Gemini agent was also asked to improve the UI style and testing thereafter.
 - [V1](https://github.com/yingqiaogit/user-dashboard/tree/v1)
 
 ## Backend Service
-Users will be streamed out 1 second apart.
+Users will be streamed out with 1 second in between.
 - [User Provider](https://github.com/yingqiaogit/user-provider)
 
 ## Configuration 
