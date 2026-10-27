@@ -24,7 +24,7 @@ Three roles can be selected for assertion: `Admin`, `Manager`, `User`
 ![Assert Role](readme/role-assertion.png)
 #### With Users
 A list of users will be displayed after a role filter is selected:
-![All](readme/user-list.png)
+![All](readme/users.png)
 #### Error
 An alert will appear when an error occurs:
 ![Alert](readme/alert.png)

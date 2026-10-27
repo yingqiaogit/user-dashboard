@@ -20,7 +20,7 @@ export default function RoleAssertion({ onRoleSubmit }: RoleAssertionProps) {
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         try {
-            const response = await fetch(`${BACKEND_SERVER}/api/v1/assertion`, {
+            const response = await fetch(`${BACKEND_SERVER}/api/v1/roles/assertion`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

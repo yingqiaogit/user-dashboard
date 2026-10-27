@@ -25,14 +25,14 @@ export default function App() {
       <ToastContainer position="top-right" theme="colored" />
       {stage === 'ROLEASSERTION' && (
         <div>
-          <Header title="Role Assertion" />
+          <Header title="Role Assertion" description="Start by asserting your role first. You can then view the list of users aligned with your role." />
           <RoleAssertion onRoleSubmit={handleRoleSubmit} />
         </div>
       )}
 
       {stage === 'DASHBOARD' && (
         <div>
-          <Header title="User Dashboard" />
+          <Header title="User Dashboard" description="View the list of users by selecting their role." />
           <Users apiKey={apiKey} role={role} />
         </div>
       )}
